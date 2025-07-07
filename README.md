@@ -25,7 +25,7 @@ NodeObserver.cs
 
 TreeObserver.cs
 - classe do observador da árvore
-- printa no console as informações sobre todos nós da árvore
+- irá exibir, no console, informações dos nós folhas no início e término do print executando o método nodeStatusUpdate. São exibidas as informações: id do nó, se o nó é branch ou folha, profundidade do nó, horário, status (início/fim do print) e duração. **Por ser executada em uma thread própria, os informações dos nós no console, não irão aparecer exatamente na ordem cronológica, porém é possível saber a ordem exata olhando o campo "horário"**.
 
 IObserver.cs
 - interface observador
