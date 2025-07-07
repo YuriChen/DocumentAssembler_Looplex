@@ -48,4 +48,5 @@ PrinterConsole
 
 PrinterTxtConsole
 - classe que printa o nó em arquivos .txt em uma pasta
+- É possível escolher o caminho onde a pasta vai ser criada e o nome da pasta. É só passar como parâmetros no construtor. :warning: Se não passar nada, como está atualmente, **a pasta será criada na pasta "Downloads"**.
 
