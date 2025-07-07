@@ -15,6 +15,7 @@ Node.cs
 Tree.cs
 - classe da árvore
 - possui os campos: root (nó raiz) e observers (lista de observadores da árvore)
+- possui o método notifyObservers que chama o método nodeStatusUpdate de cada observador na lista de observadores da árvore. O método notifyObservers é chamado antes e depois do print do nó, e é executado em outra thread, assim não interferindo no fluxo de execução do printar.
 - possui o método da árvore printLeafsByLevel que recebe uma classe derivada da interface IPrinter que vai determinar como serão printados os nós (console, .txt). São criadas threads para fazer a notificação aos observadores da árvore e do nó sobre o início e término do print. Assim o monitoramento não interfere no fluxo de execução.
 
 NodeObserver.cs
