@@ -1,5 +1,5 @@
 # DocumentAssembler_Looplex
-Simulação de programa Document Assembler com uso de árvore genérica. Uso dos designs Patterns Strategy e Observer e de Multithreading (Task.Run()).
+Avaliação técnica Looplex: simulação de programa Document Assembler com uso de árvore genérica. Print de nós folhas e monitoramento da execução. Foram usados os designs Patterns Strategy e Observer e Multithreading (Task.Run()).
 
 DocumentAssembler.cs
 - onde está o método Main
