@@ -1,10 +1,11 @@
 # DocumentAssembler_Looplex
-Avaliação técnica Looplex: simulação de programa Document Assembler em C# com uso de árvore genérica. Print de nós folhas e monitoramento da execução. Foram usados os designs Patterns Strategy e Observer e Multithreading (Task.Run()).
+Avaliação técnica Looplex: simulação de programa Document Assembler em C# com uso de árvore genérica. É executado o print de nós folhas e monitoramento da execução. Foram usados os designs Patterns Strategy e Observer e Multithreading (Task.Run()).
 
 - Ao iniciar o programa, a árvore é montada (a mesma árvore presente no documento do enunciado da avaliação).
 - Para a questão do monitoramento, foi usado o design pattern **Observer** mais a técnica de **Multithreading** (função Task.Run()). A árvore notifica, em uma thread a parte, seus observadores quando um nó folha começa ou termina de ser printada. Os observadores, por sua vez, exibem as informações do nó processado no console. Também é possível colocar observadores de nós para apenas um ou mais nós.
+- O printar também é uma funcionalidade extensível, sendo usado o design pattern **Strategy**. Há duas classes que podem ser escolhidas para o print: PrintConsole.cs e PrintTxtFiles.cs. A primeira printa o texto dos nós folhas no console, e a segunda, em uma pasta criada na pasta Downloads. Está sendo usada no programa a classe PrintTxtFiles.cs
 - Depois de montada a árvore, é adicionado o observador da árvore e um observador de nó em um dos nós (para apenas mostrar que é possível fazer o monitoramento de um nó em particular). **Então, pede-se para apertar qualquer tecla que irá iniciar o processo de print dos textos dos nós folhas e o monitoramento dessa execução.**
-- O printar também é uma funcionalidade extensível, sendo usado o design pattern **Strategy**.
+- **Os textos dos nós folhas serão printados em arquivos .txt em uma pasta criada na pasta "Downloads" e monitoramento do print dos nós no console.**
 
 
 Arquivos/Classes do programa:
