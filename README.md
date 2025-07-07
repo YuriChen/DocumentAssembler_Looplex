@@ -6,7 +6,7 @@ DocumentAssembler.cs
 - são instanciados os nós e a árvore (classes Node e Tree)
 - é colocado um observador de árvore na árvore (Observer design pattern)
 - é colocado um observador de nó em um dos nós. (Observer design pattern)
-- é chamado o método da árvore printLeafsByLevel que recebe uma classe derivada da interface IPrinter que vai determinar como serão printados os nós (console, .txt). Assim é possível criar outras classes para printar os nós de outras maneiras. (Strategy design pattern).
+- é chamado o método da árvore printLeafsByLevel que recebe uma classe derivada da interface IPrinter que vai determinar como serão printados os nós (console, .txt). Assim é possível criar outras classes para printar os nós de outras maneiras. (Strategy design pattern). Está sendo passado o PrinterTxtFiles, que vai printar os textos dos nós folhas **em uma pasta criada na pasta "Downloads"**.
 
 Node.cs
 - classe dos nós da árvore
