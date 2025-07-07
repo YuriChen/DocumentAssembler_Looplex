@@ -1,5 +1,5 @@
-# Árvore genérica | design patterns Strategy e Observer | Multithreading
-Avaliação técnica Looplex: simulação de programa Document Assembler em C# com uso de árvore genérica. É executado o print de nós folhas e monitoramento da execução. Foram usados os designs Patterns Strategy, para deixar a funcionalidade de printar nós extensível, e Observer mais a técnica de Multithreading, para fazer o monitoramento do procesamento sem interferir no fluxo de execução.
+# Árvore genérica em C# | design patterns Strategy e Observer | Multithreading
+Implementação de árvore genérica em C#. É executado o print de nós folhas e monitoramento da execução em threads à parte. Foram usados os designs Patterns Strategy, para deixar a funcionalidade de printar nós extensível, e Observer mais a técnica de Multithreading, para fazer o monitoramento do procesamento sem interferir no fluxo de execução.
 
 - Para executar o programa: abrir documentAssembler.csproj no Visual Studio e executar.
 - Ao iniciar o programa, a árvore é montada (a mesma árvore presente no documento do enunciado da avaliação).
