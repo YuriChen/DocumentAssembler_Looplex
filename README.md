@@ -6,6 +6,9 @@ Avaliação técnica Looplex: simulação de programa Document Assembler com uso
 - Depois de montada a árvore, é adicionado o observador da árvore e um observador de nó em um dos nós (para apenas mostrar que é possível fazer o monitoramento de um nó em particular). **Então, pede-se para apertar qualquer tecla que irá iniciar o processo de print dos textos dos nós folhas e o monitoramento dessa execução.**
 - O printar também é uma funcionalidade extensível, sendo usado o design pattern **Strategy**.
 
+
+Arquivos/Classes do programa:
+
 DocumentAssembler.cs
 - onde está o método Main
 - são instanciados os nós e a árvore (classes Node e Tree)
